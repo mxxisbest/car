@@ -1,22 +1,18 @@
 radio.onReceivedNumber(function (receivedNumber) {
+    // 红
+    // 绿
+    // 蓝
+    // 黄
     if (receivedNumber == 1) {
         a = -1
-        OmniBit.RGB_Program().showColor(neopixel.colors(NeoPixelColors.Red))
-        OmniBit.RGB_Program().show()
     } else if (receivedNumber == 2) {
-        OmniBit.RGB_Program().showColor(neopixel.colors(NeoPixelColors.Green))
-        OmniBit.RGB_Program().show()
+    	
     } else if (receivedNumber == 3) {
-        OmniBit.RGB_Program().showColor(neopixel.colors(NeoPixelColors.Blue))
-        OmniBit.RGB_Program().show()
+    	
     } else if (receivedNumber == 4) {
         a = 1
-        OmniBit.RGB_Program().showColor(neopixel.colors(NeoPixelColors.Yellow))
-        OmniBit.RGB_Program().show()
     } else {
         a = 0
-        OmniBit.RGB_Program().clear()
-        OmniBit.RGB_Program().show()
     }
 })
 radio.onReceivedString(function (receivedString) {
